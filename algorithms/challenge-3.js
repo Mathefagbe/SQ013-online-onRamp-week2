@@ -11,6 +11,6 @@ function alphabetPosition(text) {
  }
 
   module.exports = alphabetPosition
-  console.log(alphabetPosition('sucess'));
+  console.log(alphabetPosition('decadev'));
 
 

@@ -19,10 +19,15 @@ function accum(str) {
     for (let i = 0; i < groupedString.length; i++) {
         stringArray.push(groupedString[i].replace(groupedString[i][0], groupedString[i][0].toUpperCase()))
     }
+    if(stringArray.length===0){
+        return undefined
+    }else{
+        return stringArray.join("-")
+    }
 
-    return stringArray.join("-")
+    
 
 }
-let str = "cwAt"
+let str = ""
 console.log(accum(str))
 module.exports = accum

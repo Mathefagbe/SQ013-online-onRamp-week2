@@ -5,6 +5,6 @@ function squareDigit(str) {
     }
     return convertedstr.join("")
  }
-let str='7772'
+let str='9119'
 console.log(squareDigit(str))
   module.exports =squareDigit

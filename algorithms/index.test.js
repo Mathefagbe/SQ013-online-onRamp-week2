@@ -29,7 +29,7 @@ describe('Challenge 3 Tests', () => {
     expect(alphabetPosition('developer')).toBe('4 5 22 5 12 15 16 5 18')
     expect(alphabetPosition('decadev')).toBe('4 5 3 1 4 5 22')
     
-    expect(alphabetPosition('success')).toBe('19 21 3 5 19 19')
+    expect(alphabetPosition('success')).toBe('19 21 3 3 5 19 19')
 
     
   })
@@ -37,10 +37,10 @@ describe('Challenge 3 Tests', () => {
 
 describe('Challenge 4 Tests', () => {
   test('basic tests', () => {
-    expect(('9119')).toBe(811181)
-    expect(('289')).toBe(46481)
-    expect(('345')).toBe(91625)
-    expect(('7772')).toBe(4949494)
+    expect(squareDigit('9119')).toBe(811181)
+    expect(squareDigit('289')).toBe(46481)
+    expect(squareDigit('345')).toBe(91625)
+    expect(squareDigit('7772')).toBe(4949494)
   
   })
 })
