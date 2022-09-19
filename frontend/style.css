@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: green;
+}
+
+h1 {
+    color: white;
+    width: 70%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+section:nth-child(2) {
+    width: 70%;
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px 15px;
+}
+
+.inputfill {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+h2{
+    margin-bottom: 10px;
+}
+
+h3{
+    border: 1px solid gainsboro;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+button{
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
